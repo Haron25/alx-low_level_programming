@@ -2,18 +2,16 @@
 /**
  * main - Entry point
  *
- * Description: Print all alphabet letters except q and e
+ * Description: Print all alphabt
  *
  * Return: 0 (success)
- */
+*/
 int main(void)
 {
 	char ch = 'a';
 
 	while (ch <= 'z')
 	{
-		if (ch == 'e' || ch == 'q')
-			ch++;
 		putchar(ch);
 		ch++;
 	}
