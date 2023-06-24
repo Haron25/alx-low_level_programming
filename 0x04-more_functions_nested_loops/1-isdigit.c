@@ -3,7 +3,7 @@
 /**
  * _isdigit - Check if input is digit between 0 and 9
  *
- * @c: Input 
+ * @c: Input
  *
  * Return: 1 if is digit. 0 if not
 */
